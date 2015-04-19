@@ -40,6 +40,9 @@
 		<title>Login | Postman's Blog</title>
 	</head>
 	<body>
+		<!-- Header
+		================================================== -->
+		<?php include 'includes/header.php'; ?>
 		<p/>
 		<div align="center">
 			<h3>Login</h3>
