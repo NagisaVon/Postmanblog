@@ -11,6 +11,11 @@
 		echo '<li><a href="logout.php">Logout</a></li>';
 		echo '</ul></li>';
 	}
-?>	
+?>
+<?php
+	if (isset ($user_data) && $user_data['type'] == 0) {
+		echo '<li><a href="admin/new_article.php">Admin</a></li>';
+	}
+?>
 <!--<li><a href="works.html">Works</a></li>
 <li><a href="contact.html">Contact</a></li>-->
