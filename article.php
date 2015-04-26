@@ -73,7 +73,7 @@
 			<!-- Show meta -->
 			<h1 align="center"><?php echo $article_data['name']; ?></h1>
 			<div align="center" class="meta">
-				<span> Writer: <?php echo $writer_data['nickname']; ?>  </span>
+				<span> Writer: <?php echo $writer_data['username']; ?>  </span>
 				<span> Post at: <?php echo $article_data['datetime']; ?> </span>
 			</div>
 		
