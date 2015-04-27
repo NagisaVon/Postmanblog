@@ -27,10 +27,12 @@
 <html>
 	<head>
 		<?php include 'includes/head.php'; ?>
-		<title>Login | Postman's Blog</title>
+		<title>New article | Postman's Blog</title>
 	</head>
 	<body>
-		<a href="index.php">Home</a>
+		<!-- Header
+		================================================== -->
+		<?php include 'includes/header.php'; ?>
 		<p/>
 		<div align="center">
 			<h3>New article</h3>
