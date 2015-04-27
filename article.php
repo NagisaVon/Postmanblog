@@ -14,7 +14,7 @@
 		exit;
 	}
 	// set writer data
-	$writer_data = user_data ($_GET['id'], 'username');
+	$writer_data = user_data ($article_data['user'], 'username');
 	
 	if (isset ($_GET['page'])) {
 		$page = $_GET['page'];

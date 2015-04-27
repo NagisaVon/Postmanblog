@@ -14,7 +14,7 @@
 ?>
 <?php
 	if (isset ($user_data) && $user_data['type'] == 0) {
-		echo '<li><a href="admin/new_article.php">Admin</a></li>';
+		echo '<li><a href="admin/admin.php">Admin</a></li>';
 	}
 ?>
 <!--<li><a href="works.html">Works</a></li>
