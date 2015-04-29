@@ -1,8 +1,8 @@
 <?php
-	$host_name = "127.0.0.1";
-	$db_username = "postmanb_postman";
+	$host_name = "localhost";
+	$db_username = "postmanblogwest";
 	$db_password = "621661999";
-	$db_name = "postmanb_database";
+	$db_name = "postmanblogwest";
 
 	if (!isset($GLOBALS['con'])) {
 		$GLOBALS['con'] = new mysqli($host_name, $db_username, $db_password, $db_name);
