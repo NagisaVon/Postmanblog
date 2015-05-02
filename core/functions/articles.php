@@ -1,6 +1,6 @@
 <?php
 	function new_article ($article_data) {
-		array_walk ($article_data, 'array_sanitize');
+		//array_walk ($article_data, 'array_sanitize');
 		$fields = implode (',', array_keys ($article_data));
 		$data = '\'' . implode ('\', \'', $article_data) . '\'';
 		$GLOBALS['con']->query ("INSERT INTO article ($fields) VALUES ($data)");
