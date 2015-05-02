@@ -8,6 +8,7 @@
 		<!-- Header
 		================================================== -->
 		<?php include 'includes/header.php'; ?>
-		<a href='new_article.php'>New article</a>
+		<a href='new_article.php'>New article</a></br>
+		<a href='register.php'>Register</a>
 	</body>
 </html>
