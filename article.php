@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 	// what's this
 	if (!isset ($_GET)) {
 		header ('Location: index.php');
@@ -132,7 +132,7 @@
 
 				<form action="article.php?id=<?php echo $_GET['id']; ?>&page=1" class="contact-form" method="post">
 					<label><span>Your Name :</span></label> 
-					<input id="name" name="nickname" placeholder="Your Nickname" type="text" value="<?php if (isset ($_POST['nickname'])) { echo $_POST['nickname']; } ?>" required>
+					<input id="name" name="nickname" placeholder="Your Nickname" type="text" value="<?php if (isset ($user_data)) { echo $user_data['username']; } ?>" required>
 					
 					<label><span>Message :</span></label> 
 					<textarea id="message" name="comment_content" placeholder="Write something" style='border: 1px solid #94BBE2;width:90%;' rows="10" onpropertychange='this.style.posHeight=this.scrollHeight' onfocus='textarea.style.posHeight=this.scrollHeight'><?php if (isset ($_POST['comment_content'])) { echo $_POST['comment_content']; } ?></textarea>
