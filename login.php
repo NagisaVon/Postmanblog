@@ -39,19 +39,19 @@
 		<?php include 'includes/head.php'; ?>
 		<title>Login | Postman's Blog</title>
 	</head>
+
 	<body>
 		<!-- Header
 		================================================== -->
 		<?php include 'includes/header.php'; ?>
-		<p/>
-		<div align="center">
+
+		<div class="login">
 			<h3>Login</h3>
 			<form action="login.php" method="POST">
-				<input name="username" type="required" placeholder="Your username" required>
-				<input name="password" type="password" placeholder="Your password" required>
-				<input name="submit" type="submit" value="Login">
+				<input name="username" type="required" placeholder="Your username" required> <br>
+				<input name="password" type="password" placeholder="Your password" required> <br>
+				<input class="button white" name="submit" type="submit" value="Login">
 			</form>
-			<p/>
 			<?php
 				if (isset ($message) && $message != "") {
 					echo '<font color="red">Error Messages:<br/>' . $message . '</font>'; // echo all error messages if the login process was unsuccessful
@@ -60,8 +60,8 @@
 		</div>
 
 		<!-- JAVASCRIPT
-================================================== -->
-<?php include 'includes/js.php'; ?>
+		================================================== -->
+		<?php include 'includes/js.php'; ?>
 
 	</body>
 </html>

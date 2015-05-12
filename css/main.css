@@ -111,33 +111,6 @@ a {
 	padding: 5px 15px;
 }
 
-/* Books Page
-----------------------------------------------------------------------------------------------------*/
-img.book {
-	float: left;
-	width: 150px;
-	margin: 16px 32px 0 0;
-}
-
-.book p,.home .blog p {
-	font-size: 14px;
-}
-
-.book-title {
-	padding-top: 0;
-}
-
-.book-title a {
-	border: 0;
-}
-
-.book-image {
-	padding-top: 2em;
-}
-
-.book-info {
-	float: right;
-}
 
 /* Blog Page
 ----------------------------------------------------------------------------------------------------*/
@@ -402,6 +375,13 @@ input[type=text],input[type=email],textarea,select {
 	margin-bottom: 10px;
 	border: 1px solid #EFBBBB;
 	width: 85%;
+}
+
+/* Login
+----------------------------------------------------------------------------------------------------*/
+.login h3 {
+	margin: 20px auto;
+
 }
 
 /* Buttons
