@@ -49,7 +49,7 @@
 			<form action="login.php" method="POST">
 				<input name="username" type="required" placeholder="Your username" required>
 				<input name="password" type="password" placeholder="Your password" required>
-				<input name="submit" type="submit" value="Login">
+				<input class="button white" name="submit" type="submit" value="Login">
 			</form>
 			<p/>
 			<?php
@@ -58,5 +58,10 @@
 				}
 			?>
 		</div>
+
+		<!-- JAVASCRIPT
+================================================== -->
+<?php include 'includes/js.php'; ?>
+
 	</body>
 </html>

@@ -1,0 +1,10 @@
+<option value=0>B1</option>
+<option value=1>B2</option>
+<option value=2>B3</option>
+<option value=3>A4</option>
+<option value=4>A5</option>
+<option value=5>B6</option>
+<option value=6>B7</option>
+<option value=7>B8</option>
+<option value=8>A9</option>
+<option value=9>A10</option>

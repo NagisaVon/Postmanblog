@@ -1,0 +1,10 @@
+<option value=0>1班</option>
+<option value=1>2班</option>
+<option value=2>3班</option>
+<option value=3>4班</option>
+<option value=4>5班</option>
+<option value=5>6班</option>
+<option value=6>7班</option>
+<option value=7>8班</option>
+<option value=8>9班</option>
+<option value=9>10班</option>

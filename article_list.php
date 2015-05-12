@@ -107,5 +107,9 @@ Page: <?php // Page buttons
 ================================================== -->
 <?php include 'includes/footer.php'; ?>
 
+<!-- JAVASCRIPT
+================================================== -->
+<?php include 'includes/js.php'; ?>
+
 </body>
 </html>
