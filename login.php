@@ -58,5 +58,10 @@
 				}
 			?>
 		</div>
+
+		<!-- JAVASCRIPT
+================================================== -->
+<?php include 'includes/js.php'; ?>
+
 	</body>
 </html>
