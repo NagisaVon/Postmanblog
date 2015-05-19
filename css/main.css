@@ -377,11 +377,16 @@ input[type=text],input[type=email],textarea,select {
 	width: 85%;
 }
 
-/* Login
+/* Login & Register
 ----------------------------------------------------------------------------------------------------*/
 .login h3 {
 	margin: 20px auto;
 }
+
+.login h2 {
+	margin: 20px auto;
+}
+
 .login .button {
 	background: #FFF;
 	border: 1px solid #CCC;

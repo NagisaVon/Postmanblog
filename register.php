@@ -49,14 +49,14 @@
 		================================================== -->
 		<?php include 'includes/header.php'; ?>
 		<p/>
-		<div align="center">
-			<h3>Register</h3>
+		<div class="login" align="center">
+			<h2>Register</h2>
 			<form action="register.php" method="POST">
-				<input name="username" type="required" placeholder="Your username" required>
-				<input name="email" type="required" placeholder="Your email address" required>
-				<input name="password" type="password" placeholder="Your password" required>
-				<input name="confirm" type="password" placeholder="Confirm you password" required>
-				<input name="submit" type="submit" value="Confirm">
+				<input name="username" type="required" placeholder="Your username" required> <br>
+				<input name="email" type="required" placeholder="Your email address" required> <br>
+				<input name="password" type="password" placeholder="Your password" required> <br>
+				<input name="confirm" type="password" placeholder="Confirm you password" required> 
+				<input class="button" name="submit" type="submit" value="Confirm">
 			</form>
 			<p/>
 			<?php

@@ -46,10 +46,10 @@
 		<?php include 'includes/header.php'; ?>
 
 		<div class="login" align="center">
-			<h3>Login</h3>
+			<h2>Login</h2>
 			<form action="login.php" method="POST">
 				<input name="username" type="required" placeholder="Your username" required> <br>
-				<input name="password" type="password" placeholder="Your password" required> <br>
+				<input name="password" type="password" placeholder="Your password" required> 
 				<input class="button" name="submit" type="submit" value="Login">
 			</form>
 			<?php
