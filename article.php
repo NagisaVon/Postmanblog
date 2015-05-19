@@ -27,6 +27,9 @@
 <?php // handle new comment
 	if (isset ($_POST['submit'])) {
 		$message = "";
+		if (!isset($user_data)) {
+			$message .= "Please login to push a comment.<br>";
+		}
 		if (!isset ($_POST['nickname'])) {
 			$message .= "Please choose a nickname for you :)<br/>";
 		} if (isset ($_POST['comment_content']) && trim ($_POST['comment_content']) == "") {
