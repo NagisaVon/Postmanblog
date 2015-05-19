@@ -45,12 +45,12 @@
 		================================================== -->
 		<?php include 'includes/header.php'; ?>
 
-		<div class="login">
+		<div class="login" align="center">
 			<h3>Login</h3>
 			<form action="login.php" method="POST">
 				<input name="username" type="required" placeholder="Your username" required> <br>
 				<input name="password" type="password" placeholder="Your password" required> <br>
-				<input class="button white" name="submit" type="submit" value="Login">
+				<input class="button" name="submit" type="submit" value="Login">
 			</form>
 			<?php
 				if (isset ($message) && $message != "") {
